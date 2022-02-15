@@ -9,10 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var a:Int=2
+        var a:Int=3
         var b:Int=5
         var c:Int =a+b
         println(c)
+        Log.d("main", "onCreate: I am the master of my own world!")
         Log.d("main", "onCreate:abcd")
     }
 }
